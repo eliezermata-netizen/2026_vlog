@@ -1,0 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Yuyu+Short&display=swap');
+
+:root {
+    --deep-twilight: #03045eff;
+    --bright-teal-blue: #0077b6ff;
+    --turquoise-surf: #00b4d8ff;
+    --frosted-blue: #90e0efff;
+    }
+    body{
+    background: var(--frosted-blue);
+    font-family: var(--titulo);
+}
+h1{
+ font-family: var(--titulo);
+}

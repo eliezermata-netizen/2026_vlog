@@ -6,11 +6,15 @@
     --bright-teal-blue: #0077b6ff;
     --turquoise-surf: #00b4d8ff;
     --frosted-blue: #90e0efff;
+    --titulo: "Open sans", sans-serif;
+    --texto: "Passero One", sans-serif;
     }
     body{
     background: var(--frosted-blue);
     font-family: var(--titulo);
 }
-h1{
- font-family: var(--titulo);
+header{
+    background-color: var(--deep-twilight)
+    display: flex;
+    jus
 }

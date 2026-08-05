@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Yuyu+Short&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+}
 :root {
     --deep-twilight: #03045eff;
     --bright-teal-blue: #0077b6ff;
@@ -14,7 +17,17 @@
     font-family: var(--titulo);
 }
 header{
-    background-color: var(--deep-twilight)
+    background-color: var(--deep-twilight);
     display: flex;
-    jus
+    justify-content: space-between;
+    color: var(--turquoese-surf);
+}
+.menu{ 
+      display: flex;
+      list-style: nome;
+      gap: 20px;
+      margin: 10px;
+      color: var(--bright-teal-blue);
+      text-transform: uppercase;
+
 }
